@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import com.skilldistillery.cardgames.Hand;
+
 public class Deck {
   private List<Card> cards;
 
@@ -32,5 +34,7 @@ public class Deck {
   public Card dealCard() {
     return cards.remove(0);
   }
-  
+  public Card dealCard(Hand hand) {
+	    return cards.remove(0);
+	  }
 }

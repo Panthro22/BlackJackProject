@@ -1,10 +1,12 @@
 package com.skilldistillery.cardgameapp;
 
+import com.skilldistillery.cardgames.Blackjack;
+
 public class CardGameApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Blackjack.main(args);
 	}
 
 }
