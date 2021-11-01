@@ -54,7 +54,7 @@ public class BlackjackHand extends Hand {
         return false;
     }
 
-    @SuppressWarnings("unlikely-arg-type")
+    
 	public boolean isSoft() {
     	if (hand.contains(Rank.ACE)){
     		System.out.println("Soft");
